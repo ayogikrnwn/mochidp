@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DesignPatternBehavioralCommand/DesignPatternBehavioralCommand.iml" filepath="$PROJECT_DIR$/DesignPatternBehavioralCommand/DesignPatternBehavioralCommand.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatternBehavioralMediator/DesignPatternBehavioralMediator.iml" filepath="$PROJECT_DIR$/DesignPatternBehavioralMediator/DesignPatternBehavioralMediator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatternBehavioralObserver/DesignPatternBehavioralObserver.iml" filepath="$PROJECT_DIR$/DesignPatternBehavioralObserver/DesignPatternBehavioralObserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatternBehavioralStrategy/DesignPatternBehavioralStrategy.iml" filepath="$PROJECT_DIR$/DesignPatternBehavioralStrategy/DesignPatternBehavioralStrategy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatternCreationalAbstractFactory/DesignPatternCreationalAbstractFactory.iml" filepath="$PROJECT_DIR$/DesignPatternCreationalAbstractFactory/DesignPatternCreationalAbstractFactory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatternCreationalBuilder/DesignPatternCreationalBuilder.iml" filepath="$PROJECT_DIR$/DesignPatternCreationalBuilder/DesignPatternCreationalBuilder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatternCreationalPrototype/DesignPatternCreationalPrototype.iml" filepath="$PROJECT_DIR$/DesignPatternCreationalPrototype/DesignPatternCreationalPrototype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatternCreationalSingleton/DesignPatternCreationalSingleton.iml" filepath="$PROJECT_DIR$/DesignPatternCreationalSingleton/DesignPatternCreationalSingleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatternStructuralAdapter/DesignPatternStructuralAdapter.iml" filepath="$PROJECT_DIR$/DesignPatternStructuralAdapter/DesignPatternStructuralAdapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatternStructuralComposite/DesignPatternStructuralComposite.iml" filepath="$PROJECT_DIR$/DesignPatternStructuralComposite/DesignPatternStructuralComposite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatternStructuralDecorator/DesignPatternStructuralDecorator.iml" filepath="$PROJECT_DIR$/DesignPatternStructuralDecorator/DesignPatternStructuralDecorator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatternStructuralProxy/DesignPatternStructuralProxy.iml" filepath="$PROJECT_DIR$/DesignPatternStructuralProxy/DesignPatternStructuralProxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TubesCCDP_Mochi.iml" filepath="$PROJECT_DIR$/TubesCCDP_Mochi.iml" />
+    </modules>
+  </component>
+</project>
