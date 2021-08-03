@@ -8,11 +8,11 @@ public class DemoMusic {
         uploadedMusicProfile.showMusicPlayerElements();
         System.out.println("Total Views: " + uploadedMusicProfile.getTotalView());
 
-        MusicProfile liveStreamVideoProfile = musicplayerbuilder.prepareMusicPremiere();
+        MusicProfile premiereMusicProfile = musicplayerbuilder.prepareMusicPremiere();
         System.out.println("--------------------------------------------------------");
         System.out.println("--------------------------------------------------------");
         System.out.println("Lagu Baru Yang Sedang Diputar Perdana");
-        liveStreamVideoProfile.showMusicPlayerElements();
-        System.out.println("Total Views: " + liveStreamVideoProfile.getTotalView());
+        premiereMusicProfile.showMusicPlayerElements();
+        System.out.println("Total Views: " + premiereMusicProfile.getTotalView());
     }
 }
