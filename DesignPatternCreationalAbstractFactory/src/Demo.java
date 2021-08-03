@@ -13,7 +13,7 @@ public class Demo {
         if(category.toLowerCase().contains("music")){
             factory = new ByMusic();
             upMusic = new UploadMusic(factory);
-        }else if(category.toLowerCase().contains("game")){
+        }else if(category.toLowerCase().contains("artist")){
             factory = new ByArtist();
             upMusic = new UploadMusic(factory);
         }else{
@@ -26,7 +26,7 @@ public class Demo {
         String kategori = "";
         UploadMusic upMusic;
 
-        kategori = "game";
+        kategori = "artist";
         upMusic = uploadNewMusic(kategori);
         upMusic.create();
 
