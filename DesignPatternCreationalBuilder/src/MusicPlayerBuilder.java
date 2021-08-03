@@ -1,16 +1,16 @@
 public class MusicPlayerBuilder {
 
-    public MusicProfile prepareVideoOffline(){
+    public MusicProfile prepareMusicOffline(){
         MusicProfile musicprofile = new MusicProfile();
-        musicprofile.addVideoPlayerElement(new MusicPop());
-        musicprofile.addVideoPlayerElement(new MusicLocal());
+        musicprofile.addMusicPlayerElement(new MusicPop());
+        musicprofile.addMusicPlayerElement(new MusicLocal());
         return musicprofile;
     }
 
-    public MusicProfile prepareVideoLivestream(){
+    public MusicProfile prepareMusicPremiere(){
         MusicProfile musicprofile = new MusicProfile();
-        musicprofile.addVideoPlayerElement(new MusicPremiereOne());
-        musicprofile.addVideoPlayerElement(new MusicPremiereTwo());
+        musicprofile.addMusicPlayerElement(new MusicPremiereOne());
+        musicprofile.addMusicPlayerElement(new MusicPremiereTwo());
         return musicprofile;
     }
 }

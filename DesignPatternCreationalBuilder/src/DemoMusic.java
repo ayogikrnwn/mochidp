@@ -3,16 +3,16 @@ public class DemoMusic {
 
         MusicPlayerBuilder musicplayerbuilder = new MusicPlayerBuilder();
 
-        MusicProfile uploadedVideoProfile = musicplayerbuilder.prepareVideoOffline();
+        MusicProfile uploadedMusicProfile = musicplayerbuilder.prepareMusicOffline();
         System.out.println("Informasi Unggahan Musik Terbaru");
-        uploadedVideoProfile.showVideoPlayerElements();
-        System.out.println("Total Views: " + uploadedVideoProfile.getTotalView());
+        uploadedMusicProfile.showMusicPlayerElements();
+        System.out.println("Total Views: " + uploadedMusicProfile.getTotalView());
 
-        MusicProfile liveStreamVideoProfile = musicplayerbuilder.prepareVideoLivestream();
+        MusicProfile liveStreamVideoProfile = musicplayerbuilder.prepareMusicPremiere();
         System.out.println("--------------------------------------------------------");
         System.out.println("--------------------------------------------------------");
         System.out.println("Lagu Baru Yang Sedang Diputar Perdana");
-        liveStreamVideoProfile.showVideoPlayerElements();
+        liveStreamVideoProfile.showMusicPlayerElements();
         System.out.println("Total Views: " + liveStreamVideoProfile.getTotalView());
     }
 }

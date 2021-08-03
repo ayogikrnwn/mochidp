@@ -4,7 +4,7 @@ import java.util.List;
 public class MusicProfile {
     private List<MusicPlayerElement> items = new ArrayList<MusicPlayerElement>();
 
-    public void addVideoPlayerElement(MusicPlayerElement item){
+    public void addMusicPlayerElement(MusicPlayerElement item){
         items.add(item);
     }
 
@@ -17,7 +17,7 @@ public class MusicProfile {
         return totalview;
     }
 
-    public void showVideoPlayerElements(){
+    public void showMusicPlayerElements(){
 
         for (MusicPlayerElement item : items) {
             System.out.print("Judul : " + item.judul());
